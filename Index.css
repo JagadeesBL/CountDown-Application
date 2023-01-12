@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(90deg,rgb(225, 37, 37),yellow)
+}
+
+.title{
+  margin-top: 50px;
+  text-align: center;
+font-size: 2.5rem;
+font-style: oblique;   
+color:palegreen; 
+text-shadow: 2px 2px  red;
+
+}
+
+.col{
+  
+    margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   color: rgba(190, 55, 55, 0.545);
+
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+    
+}
+
+input{
+    width: 80%;
+   height: 50px;
+    display: block;
+    text-align: center;
+    border: 2px solid #0000 ;
+ 
+}
+
+label{
+    color:#000;
+    text-shadow: 1px 1.1px;
+    font-weight: 500;
+}
